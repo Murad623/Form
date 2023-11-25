@@ -1,0 +1,38 @@
+label{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-bottom: 10px;
+}
+.Form{
+    border: 2px solid cyan;
+    border-radius: 15px;
+    padding: 15px;
+}
+.submit{
+    background-color: cyan;
+    border: none;
+    height: 25px;
+}
+.submit:hover{
+    background-color: rgb(0, 231, 231);
+    border: none;
+}
+input, textarea{
+    border: 2px solid cyan;
+    border-radius: 10px;
+    height: 20px;
+}
+input:focus, textarea:focus{
+    outline: cyan;
+}
+textarea{
+    height: 40px;
+    max-width: 242.8px;
+    max-height: 125px;
+    min-height: 40px;
+    min-width: 242.8px;
+}
+p{
+    display: none;
+}
